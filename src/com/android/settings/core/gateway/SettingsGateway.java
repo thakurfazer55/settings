@@ -127,8 +127,6 @@ import com.android.settings.wifi.WifiAPITest;
 import com.android.settings.wifi.WifiInfo;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
-import org.aospextended.extensions.PartsFragment;
-import org.aospextended.extensions.HeadsUpSettings;
 import com.android.settings.custom.fragments.ButtonSettings;
 
 public class SettingsGateway {
@@ -249,8 +247,6 @@ public class SettingsGateway {
             WebViewAppPicker.class.getName(),
             LockscreenDashboardFragment.class.getName(),
             StartAe.class.getName(),
-            PartsFragment.class.getName(),
-            HeadsUpSettings.class.getName(),
             ButtonSettings.class.getName(),
     };
 
